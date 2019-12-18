@@ -1,0 +1,43 @@
+.ShopDetails{
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.ShopImage{
+    height: auto;
+    width: 300px;
+}
+
+.ShopImage img{
+    height: 100%;
+    width: 100%;
+}
+
+.BobaRates, .BobaPrices{
+    width: 30%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ShopRating_ShopPrice{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ShopInfo{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.BobaRate, .BobaPrice{
+    width: 35px;
+    height: 35px;
+}
+

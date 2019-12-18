@@ -1,0 +1,11 @@
+Documentation: https://github.com/zeit/next.js/tree/master#static-file-serving-eg-images
+
+Specified Directories:
+    Pages Directory
+    - Each file is a server-rendered React Component
+
+    API Directory (API Routes)
+    - Each file is an endpoint
+
+    Public Directory
+    - Can reference images with "/image.png"
