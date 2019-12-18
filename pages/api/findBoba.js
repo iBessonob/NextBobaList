@@ -1,7 +1,7 @@
 const yelp = require("yelp-fusion");
 const dotenv = require("dotenv");
 
-dotenv.config({ path: "/.env" });
+dotenv.config({});
 const client = yelp.client(process.env.API_KEY);
 
 async function findBoba(req, res){

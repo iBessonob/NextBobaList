@@ -9,3 +9,12 @@ Specified Directories:
 
     Public Directory
     - Can reference images with "/image.png"
+
+Using Stylesheets:
+- npm install @zeit/next-css
+- simply include relative path to stylesheet
+- create next.config.js
+
+Deploying:
+- npm install now
+- now
